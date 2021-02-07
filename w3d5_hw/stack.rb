@@ -20,6 +20,7 @@ class Stack
     # returns, but doesn't remove, the top element in the stack
   end
 end
-
-
+arr = [1,2,3]
+stack = Stack.new(arr)
+p stack
 

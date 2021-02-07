@@ -1,20 +1,21 @@
-class Queue
+class MyQueue
 
-  attr_reader
   def initialize(queue)
-    @queue = queue
+    inner_array = queue
     # create ivar to store stack here!
   end
-
+  
   def enqueue(ele)
-    @queue.unshift(ele)
+    inner_array.unshift(ele)
   end
-
+  
   def dequeue
-    @queue.pop
+    inner_array.pop
   end
-
+  
   def peek
-    @queue.last
+    inner_array.dup
   end
+  private
+  attr_reader :inner_array
 end
