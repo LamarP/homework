@@ -1,0 +1,18 @@
+<!-- eventhandler, when the user clicks the submit button, will submit the form data in the background -->
+<form id="cat-form">
+  <input type="text" name="cat[name]">
+  <input type="text" name="cat[color]">
+
+  <input type="submit">
+</form>
+
+<script>
+  $('#cat-form').on('submit', (event) => {
+    //lookup 'preventDefault'; it stops the browsers defaultaction,
+    //which is to make a syncronous submission of hte form
+    event.preventDefault();
+    //as a shortcut, when jquery calls your event handler, it sets this == event.currentTarget
+    let formData = $(event.currentTarget).serialize();
+    
+  })
+</script>
