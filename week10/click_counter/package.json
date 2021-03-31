@@ -1,0 +1,21 @@
+{
+  "name": "click_counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "redux": "^4.0.5",
+    "webpack": "^5.28.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
