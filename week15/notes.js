@@ -11,6 +11,7 @@
 //reviewed react modals
 //reviewed loadspinner
 //implemented loadspinner for mern
+//refactor mern code
  /*
     Tabulation
 
