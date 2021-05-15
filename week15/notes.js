@@ -1,10 +1,3 @@
- /*
-    Tabulation
-
-    Tabulating Fib
-
-    create a table(array) and fill it out with elements.
- */
 //make change
 //studied react this week
 //ran through react calculator again
@@ -15,6 +8,14 @@
 //reviewed react test
 //reviewed dsna
 //pair programmed mern project
+//reviewed react modals
+ /*
+    Tabulation
+
+    Tabulating Fib
+
+    create a table(array) and fill it out with elements.
+ */
 function tabulatedFib(n) {
     // create a blank array of length 'n'
   let table = new Array(n);
