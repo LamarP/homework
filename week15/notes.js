@@ -6,7 +6,7 @@
     create a table(array) and fill it out with elements.
  */
 //make change
-
+//studied react this week
 function tabulatedFib(n) {
     // create a blank array of length 'n'
   let table = new Array(n);
