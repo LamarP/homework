@@ -10,6 +10,7 @@
 //pair programmed mern project
 //reviewed react modals
 //reviewed loadspinner
+//implemented loadspinner for mern
  /*
     Tabulation
 
