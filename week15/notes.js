@@ -14,6 +14,7 @@
 //watched react videos
 //reviewed react test
 //reviewed dsna
+//pair programmed mern project
 function tabulatedFib(n) {
     // create a blank array of length 'n'
   let table = new Array(n);
