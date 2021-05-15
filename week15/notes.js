@@ -11,6 +11,7 @@
 //ran through react bench bnb again
 //ran through the first week of react
 //studied react
+//watched react videos
 function tabulatedFib(n) {
     // create a blank array of length 'n'
   let table = new Array(n);
