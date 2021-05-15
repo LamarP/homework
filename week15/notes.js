@@ -7,6 +7,8 @@
  */
 //make change
 //studied react this week
+//ran through react calculator again
+
 function tabulatedFib(n) {
     // create a blank array of length 'n'
   let table = new Array(n);
